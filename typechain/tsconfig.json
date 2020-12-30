@@ -2,9 +2,10 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "ES2017",
-        "sourceMap": true
+        "sourceMap": true,
+        "outDir": "dist"
     },
     // 컴파일 과정에서 포함시킬 or 제외할 파일들의 배열
-    "include": ["index.ts"],
+    "include": ["src/**/*"],
     "exclude": ["node_modules"]
 }
